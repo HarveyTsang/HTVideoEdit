@@ -3,25 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0422E19925F60E3E0007F664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422E19825F60E3E0007F664 /* AppDelegate.m */; };
-		0422E19C25F60E3E0007F664 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422E19B25F60E3E0007F664 /* SceneDelegate.m */; };
 		0422E19F25F60E3E0007F664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422E19E25F60E3E0007F664 /* ViewController.m */; };
 		0422E1A225F60E3E0007F664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0422E1A025F60E3E0007F664 /* Main.storyboard */; };
 		0422E1A425F60E3F0007F664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0422E1A325F60E3F0007F664 /* Assets.xcassets */; };
 		0422E1A725F60E3F0007F664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0422E1A525F60E3F0007F664 /* LaunchScreen.storyboard */; };
 		0422E1AA25F60E3F0007F664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422E1A925F60E3F0007F664 /* main.m */; };
+		381F1AED024B2AFC88703231 /* libPods-HTVideoEdit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3143D5FA2A3DAE9F9440D3BC /* libPods-HTVideoEdit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0422E19425F60E3E0007F664 /* HTVideoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTVideoEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0422E19725F60E3E0007F664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0422E19825F60E3E0007F664 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0422E19A25F60E3E0007F664 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0422E19B25F60E3E0007F664 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		0422E19D25F60E3E0007F664 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0422E19E25F60E3E0007F664 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0422E1A125F60E3E0007F664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +27,9 @@
 		0422E1A625F60E3F0007F664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0422E1A825F60E3F0007F664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0422E1A925F60E3F0007F664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3143D5FA2A3DAE9F9440D3BC /* libPods-HTVideoEdit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTVideoEdit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DA55D51D1296F7A424C005 /* Pods-HTVideoEdit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTVideoEdit.release.xcconfig"; path = "Target Support Files/Pods-HTVideoEdit/Pods-HTVideoEdit.release.xcconfig"; sourceTree = "<group>"; };
+		DF72350C077AC6B9E9C5FD85 /* Pods-HTVideoEdit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTVideoEdit.debug.xcconfig"; path = "Target Support Files/Pods-HTVideoEdit/Pods-HTVideoEdit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381F1AED024B2AFC88703231 /* libPods-HTVideoEdit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +49,8 @@
 			children = (
 				0422E19625F60E3E0007F664 /* HTVideoEdit */,
 				0422E19525F60E3E0007F664 /* Products */,
+				E7629BB0E3AF68B0FFE75AA1 /* Pods */,
+				F20DF964E5D920E3DA5394A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +67,6 @@
 			children = (
 				0422E19725F60E3E0007F664 /* AppDelegate.h */,
 				0422E19825F60E3E0007F664 /* AppDelegate.m */,
-				0422E19A25F60E3E0007F664 /* SceneDelegate.h */,
-				0422E19B25F60E3E0007F664 /* SceneDelegate.m */,
 				0422E19D25F60E3E0007F664 /* ViewController.h */,
 				0422E19E25F60E3E0007F664 /* ViewController.m */,
 				0422E1A025F60E3E0007F664 /* Main.storyboard */,
@@ -76,6 +78,23 @@
 			path = HTVideoEdit;
 			sourceTree = "<group>";
 		};
+		E7629BB0E3AF68B0FFE75AA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF72350C077AC6B9E9C5FD85 /* Pods-HTVideoEdit.debug.xcconfig */,
+				49DA55D51D1296F7A424C005 /* Pods-HTVideoEdit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F20DF964E5D920E3DA5394A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3143D5FA2A3DAE9F9440D3BC /* libPods-HTVideoEdit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0422E1AD25F60E3F0007F664 /* Build configuration list for PBXNativeTarget "HTVideoEdit" */;
 			buildPhases = (
+				0F1C0A3FAB4353B9D41ED5B0 /* [CP] Check Pods Manifest.lock */,
 				0422E19025F60E3E0007F664 /* Sources */,
 				0422E19125F60E3E0007F664 /* Frameworks */,
 				0422E19225F60E3E0007F664 /* Resources */,
@@ -140,6 +160,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F1C0A3FAB4353B9D41ED5B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTVideoEdit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0422E19025F60E3E0007F664 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,7 +193,6 @@
 				0422E19F25F60E3E0007F664 /* ViewController.m in Sources */,
 				0422E19925F60E3E0007F664 /* AppDelegate.m in Sources */,
 				0422E1AA25F60E3F0007F664 /* main.m in Sources */,
-				0422E19C25F60E3E0007F664 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,16 +332,19 @@
 		};
 		0422E1AE25F60E3F0007F664 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF72350C077AC6B9E9C5FD85 /* Pods-HTVideoEdit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SBJQC7QVB8;
 				INFOPLIST_FILE = HTVideoEdit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HarveyTsang.HTVideoEdit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kankan.XiJing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,16 +352,19 @@
 		};
 		0422E1AF25F60E3F0007F664 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DA55D51D1296F7A424C005 /* Pods-HTVideoEdit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SBJQC7QVB8;
 				INFOPLIST_FILE = HTVideoEdit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HarveyTsang.HTVideoEdit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kankan.XiJing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
