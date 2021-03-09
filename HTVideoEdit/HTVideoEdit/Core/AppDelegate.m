@@ -2,7 +2,8 @@
 //  AppDelegate.m
 //  HTVideoEdit
 //
-//  Created by mac on 2021/3/8.
+//  Created by HarveyTsang on 2021/3/8.
+//  Copyright (c) HarveyTsang. All rights reserved.
 //
 
 #import "AppDelegate.h"

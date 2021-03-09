@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="neZ-aX-CrY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBT-P7-P40">
-                                <rect key="frame" x="176" y="438" width="62" height="30"/>
+                                <rect key="frame" x="176" y="460" width="62" height="30"/>
                                 <state key="normal" title="选择视频"/>
                                 <connections>
                                     <action selector="selectVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SWb-mO-U9h"/>
@@ -32,10 +32,29 @@
                             <constraint firstItem="QBT-P7-P40" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Klr-eg-vIB"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Nlv-p3-vJa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="91" y="89"/>
+            <point key="canvasLocation" x="1000.0000000000001" y="88.392857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="u7r-50-T3B">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="neZ-aX-CrY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oLH-gH-nwY">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MjN-xt-STm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D78-xI-RfR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89.855072463768124" y="88.392857142857139"/>
         </scene>
     </scenes>
     <resources>

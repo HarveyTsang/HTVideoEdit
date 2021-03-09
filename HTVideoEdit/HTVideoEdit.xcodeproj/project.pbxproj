@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,44 @@
 		0422E1A425F60E3F0007F664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0422E1A325F60E3F0007F664 /* Assets.xcassets */; };
 		0422E1A725F60E3F0007F664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0422E1A525F60E3F0007F664 /* LaunchScreen.storyboard */; };
 		0422E1AA25F60E3F0007F664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422E1A925F60E3F0007F664 /* main.m */; };
+		04B4BCFA25F67DFC008693B5 /* dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04B4BCF825F67DFC008693B5 /* dog.gif */; };
+		04B4BCFB25F67DFC008693B5 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B4BCF925F67DFC008693B5 /* dog.png */; };
+		04B4BD0525F6F102008693B5 /* UIColor+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4BD0425F6F102008693B5 /* UIColor+App.m */; };
+		04E7839125F61B25004F246B /* HTAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7839025F61B24004F246B /* HTAssetPickerController.m */; };
+		04E7839725F61B98004F246B /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7839525F61B98004F246B /* UIApplication+Extension.m */; };
+		04E7839B25F61C44004F246B /* HTVideoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7839A25F61C44004F246B /* HTVideoEditViewController.m */; };
+		04E783A125F61CEC004F246B /* HTAssetEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783A025F61CEC004F246B /* HTAssetEditor.m */; };
+		04E783A525F61D30004F246B /* HTAssetSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783A325F61D30004F246B /* HTAssetSegment.m */; };
+		04E783A925F61D47004F246B /* HTTrackSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783A825F61D47004F246B /* HTTrackSegment.m */; };
+		04E783AD25F61D60004F246B /* AVAssetTrack+HTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783AB25F61D60004F246B /* AVAssetTrack+HTHelper.m */; };
+		04E783B125F61D6F004F246B /* AVMutableCompositionTrack+HTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783AF25F61D6F004F246B /* AVMutableCompositionTrack+HTHelper.m */; };
+		04E783B525F61F68004F246B /* NSTimer+Weak.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783B425F61F68004F246B /* NSTimer+Weak.m */; };
+		04E783B925F62030004F246B /* HTVideoEditToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783B825F62030004F246B /* HTVideoEditToolView.m */; };
+		04E783C625F62425004F246B /* HTImageStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783C125F62425004F246B /* HTImageStickerView.m */; };
+		04E783C725F62425004F246B /* HTTextStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783C425F62425004F246B /* HTTextStickerView.m */; };
+		04E783C825F62425004F246B /* HTStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783C525F62425004F246B /* HTStickerView.m */; };
+		04E783D125F624AF004F246B /* HTStickerHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783D025F624AE004F246B /* HTStickerHighlightView.m */; };
+		04E783D725F626BA004F246B /* HTTextStickerAttributePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783D525F626BA004F246B /* HTTextStickerAttributePicker.m */; };
+		04E783DE25F626E4004F246B /* HTFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783DA25F626E3004F246B /* HTFontCell.m */; };
+		04E783DF25F626E4004F246B /* HTColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783DC25F626E3004F246B /* HTColorCell.m */; };
+		04E783E325F628A9004F246B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783E225F628A9004F246B /* UIColor+Hex.m */; };
+		04E783E725F62B28004F246B /* HTFontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783E625F62B28004F246B /* HTFontInfo.m */; };
+		04E783EB25F62BCB004F246B /* HTImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783EA25F62BCB004F246B /* HTImagePicker.m */; };
+		04E783EF25F62C09004F246B /* HTImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783EE25F62C09004F246B /* HTImageCell.m */; };
+		04E783F425F62D06004F246B /* HTVideoEditProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783F325F62D06004F246B /* HTVideoEditProgressBar.m */; };
+		04E783F825F62E4D004F246B /* HTTimeRangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783F625F62E4D004F246B /* HTTimeRangeView.m */; };
+		04E783FC25F62F26004F246B /* HTSectionClipViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783FA25F62F25004F246B /* HTSectionClipViewDataSource.m */; };
+		04E7840025F62F64004F246B /* HTTimeRangeDragTrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E783FF25F62F64004F246B /* HTTimeRangeDragTrackView.m */; };
+		04E7840425F62F9D004F246B /* HTSectionClipScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7840225F62F9D004F246B /* HTSectionClipScrollView.m */; };
+		04E7840825F630C0004F246B /* HTSectionClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7840625F630C0004F246B /* HTSectionClipView.m */; };
+		04E7840C25F630E9004F246B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7840B25F630E9004F246B /* UIView+Frame.m */; };
+		04E7841025F6321D004F246B /* UIImageView+BindImageKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7840E25F6321D004F246B /* UIImageView+BindImageKey.m */; };
+		04E7841425F632BD004F246B /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7841225F632BD004F246B /* UIImage+Extension.m */; };
+		04E7841825F632EE004F246B /* HTEditPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7841725F632EE004F246B /* HTEditPlayerView.m */; };
+		04E7841C25F6335F004F246B /* HTTextInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7841A25F6335E004F246B /* HTTextInputViewController.m */; };
+		04E7842025F633B0004F246B /* APLCompositionDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7841F25F633B0004F246B /* APLCompositionDebugView.m */; };
+		04E7842425F633E3004F246B /* HTVideoInsertPointHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7842325F633E3004F246B /* HTVideoInsertPointHelper.m */; };
+		04E7842825F63417004F246B /* HTExportProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7842625F63417004F246B /* HTExportProgressView.m */; };
 		381F1AED024B2AFC88703231 /* libPods-HTVideoEdit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3143D5FA2A3DAE9F9440D3BC /* libPods-HTVideoEdit.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +65,81 @@
 		0422E1A625F60E3F0007F664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0422E1A825F60E3F0007F664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0422E1A925F60E3F0007F664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B4BCF825F67DFC008693B5 /* dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dog.gif; sourceTree = "<group>"; };
+		04B4BCF925F67DFC008693B5 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		04B4BD0325F6F102008693B5 /* UIColor+App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+App.h"; sourceTree = "<group>"; };
+		04B4BD0425F6F102008693B5 /* UIColor+App.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+App.m"; sourceTree = "<group>"; };
+		04E7838F25F61B24004F246B /* HTAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAssetPickerController.h; sourceTree = "<group>"; };
+		04E7839025F61B24004F246B /* HTAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAssetPickerController.m; sourceTree = "<group>"; };
+		04E7839525F61B98004F246B /* UIApplication+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extension.m"; sourceTree = "<group>"; };
+		04E7839625F61B98004F246B /* UIApplication+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extension.h"; sourceTree = "<group>"; };
+		04E7839925F61C44004F246B /* HTVideoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTVideoEditViewController.h; sourceTree = "<group>"; };
+		04E7839A25F61C44004F246B /* HTVideoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTVideoEditViewController.m; sourceTree = "<group>"; };
+		04E7839F25F61CEC004F246B /* HTAssetEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAssetEditor.h; sourceTree = "<group>"; };
+		04E783A025F61CEC004F246B /* HTAssetEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAssetEditor.m; sourceTree = "<group>"; };
+		04E783A325F61D30004F246B /* HTAssetSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAssetSegment.m; sourceTree = "<group>"; };
+		04E783A425F61D30004F246B /* HTAssetSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAssetSegment.h; sourceTree = "<group>"; };
+		04E783A725F61D47004F246B /* HTTrackSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTrackSegment.h; sourceTree = "<group>"; };
+		04E783A825F61D47004F246B /* HTTrackSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTrackSegment.m; sourceTree = "<group>"; };
+		04E783AB25F61D60004F246B /* AVAssetTrack+HTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAssetTrack+HTHelper.m"; sourceTree = "<group>"; };
+		04E783AC25F61D60004F246B /* AVAssetTrack+HTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAssetTrack+HTHelper.h"; sourceTree = "<group>"; };
+		04E783AF25F61D6F004F246B /* AVMutableCompositionTrack+HTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVMutableCompositionTrack+HTHelper.m"; sourceTree = "<group>"; };
+		04E783B025F61D6F004F246B /* AVMutableCompositionTrack+HTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVMutableCompositionTrack+HTHelper.h"; sourceTree = "<group>"; };
+		04E783B325F61F68004F246B /* NSTimer+Weak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Weak.h"; sourceTree = "<group>"; };
+		04E783B425F61F68004F246B /* NSTimer+Weak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Weak.m"; sourceTree = "<group>"; };
+		04E783B725F62030004F246B /* HTVideoEditToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTVideoEditToolView.h; sourceTree = "<group>"; };
+		04E783B825F62030004F246B /* HTVideoEditToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTVideoEditToolView.m; sourceTree = "<group>"; };
+		04E783BD25F62370004F246B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04E783C025F62425004F246B /* HTStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTStickerView.h; sourceTree = "<group>"; };
+		04E783C125F62425004F246B /* HTImageStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTImageStickerView.m; sourceTree = "<group>"; };
+		04E783C225F62425004F246B /* HTImageStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTImageStickerView.h; sourceTree = "<group>"; };
+		04E783C325F62425004F246B /* HTTextStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTextStickerView.h; sourceTree = "<group>"; };
+		04E783C425F62425004F246B /* HTTextStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTextStickerView.m; sourceTree = "<group>"; };
+		04E783C525F62425004F246B /* HTStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTStickerView.m; sourceTree = "<group>"; };
+		04E783CF25F624AE004F246B /* HTStickerHighlightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTStickerHighlightView.h; sourceTree = "<group>"; };
+		04E783D025F624AE004F246B /* HTStickerHighlightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTStickerHighlightView.m; sourceTree = "<group>"; };
+		04E783D525F626BA004F246B /* HTTextStickerAttributePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTextStickerAttributePicker.m; sourceTree = "<group>"; };
+		04E783D625F626BA004F246B /* HTTextStickerAttributePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTextStickerAttributePicker.h; sourceTree = "<group>"; };
+		04E783DA25F626E3004F246B /* HTFontCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFontCell.m; sourceTree = "<group>"; };
+		04E783DB25F626E3004F246B /* HTFontCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFontCell.h; sourceTree = "<group>"; };
+		04E783DC25F626E3004F246B /* HTColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTColorCell.m; sourceTree = "<group>"; };
+		04E783DD25F626E4004F246B /* HTColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTColorCell.h; sourceTree = "<group>"; };
+		04E783E125F628A9004F246B /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		04E783E225F628A9004F246B /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		04E783E525F62B28004F246B /* HTFontInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFontInfo.h; sourceTree = "<group>"; };
+		04E783E625F62B28004F246B /* HTFontInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFontInfo.m; sourceTree = "<group>"; };
+		04E783E925F62BCB004F246B /* HTImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTImagePicker.h; sourceTree = "<group>"; };
+		04E783EA25F62BCB004F246B /* HTImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTImagePicker.m; sourceTree = "<group>"; };
+		04E783ED25F62C09004F246B /* HTImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTImageCell.h; sourceTree = "<group>"; };
+		04E783EE25F62C09004F246B /* HTImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTImageCell.m; sourceTree = "<group>"; };
+		04E783F225F62D06004F246B /* HTVideoEditProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTVideoEditProgressBar.h; sourceTree = "<group>"; };
+		04E783F325F62D06004F246B /* HTVideoEditProgressBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTVideoEditProgressBar.m; sourceTree = "<group>"; };
+		04E783F625F62E4D004F246B /* HTTimeRangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTimeRangeView.m; sourceTree = "<group>"; };
+		04E783F725F62E4D004F246B /* HTTimeRangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTimeRangeView.h; sourceTree = "<group>"; };
+		04E783FA25F62F25004F246B /* HTSectionClipViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSectionClipViewDataSource.m; sourceTree = "<group>"; };
+		04E783FB25F62F26004F246B /* HTSectionClipViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSectionClipViewDataSource.h; sourceTree = "<group>"; };
+		04E783FE25F62F64004F246B /* HTTimeRangeDragTrackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTimeRangeDragTrackView.h; sourceTree = "<group>"; };
+		04E783FF25F62F64004F246B /* HTTimeRangeDragTrackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTimeRangeDragTrackView.m; sourceTree = "<group>"; };
+		04E7840225F62F9D004F246B /* HTSectionClipScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSectionClipScrollView.m; sourceTree = "<group>"; };
+		04E7840325F62F9D004F246B /* HTSectionClipScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSectionClipScrollView.h; sourceTree = "<group>"; };
+		04E7840625F630C0004F246B /* HTSectionClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSectionClipView.m; sourceTree = "<group>"; };
+		04E7840725F630C0004F246B /* HTSectionClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSectionClipView.h; sourceTree = "<group>"; };
+		04E7840A25F630E9004F246B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		04E7840B25F630E9004F246B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		04E7840E25F6321D004F246B /* UIImageView+BindImageKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BindImageKey.m"; sourceTree = "<group>"; };
+		04E7840F25F6321D004F246B /* UIImageView+BindImageKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BindImageKey.h"; sourceTree = "<group>"; };
+		04E7841225F632BD004F246B /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		04E7841325F632BD004F246B /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		04E7841625F632EE004F246B /* HTEditPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTEditPlayerView.h; sourceTree = "<group>"; };
+		04E7841725F632EE004F246B /* HTEditPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTEditPlayerView.m; sourceTree = "<group>"; };
+		04E7841A25F6335E004F246B /* HTTextInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTextInputViewController.m; sourceTree = "<group>"; };
+		04E7841B25F6335E004F246B /* HTTextInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTextInputViewController.h; sourceTree = "<group>"; };
+		04E7841E25F633B0004F246B /* APLCompositionDebugView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCompositionDebugView.h; sourceTree = "<group>"; };
+		04E7841F25F633B0004F246B /* APLCompositionDebugView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCompositionDebugView.m; sourceTree = "<group>"; };
+		04E7842225F633E3004F246B /* HTVideoInsertPointHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTVideoInsertPointHelper.h; sourceTree = "<group>"; };
+		04E7842325F633E3004F246B /* HTVideoInsertPointHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTVideoInsertPointHelper.m; sourceTree = "<group>"; };
+		04E7842625F63417004F246B /* HTExportProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTExportProgressView.m; sourceTree = "<group>"; };
+		04E7842725F63417004F246B /* HTExportProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTExportProgressView.h; sourceTree = "<group>"; };
 		3143D5FA2A3DAE9F9440D3BC /* libPods-HTVideoEdit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTVideoEdit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DA55D51D1296F7A424C005 /* Pods-HTVideoEdit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTVideoEdit.release.xcconfig"; path = "Target Support Files/Pods-HTVideoEdit/Pods-HTVideoEdit.release.xcconfig"; sourceTree = "<group>"; };
 		DF72350C077AC6B9E9C5FD85 /* Pods-HTVideoEdit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTVideoEdit.debug.xcconfig"; path = "Target Support Files/Pods-HTVideoEdit/Pods-HTVideoEdit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,17 +178,188 @@
 		0422E19625F60E3E0007F664 /* HTVideoEdit */ = {
 			isa = PBXGroup;
 			children = (
-				0422E19725F60E3E0007F664 /* AppDelegate.h */,
-				0422E19825F60E3E0007F664 /* AppDelegate.m */,
-				0422E19D25F60E3E0007F664 /* ViewController.h */,
-				0422E19E25F60E3E0007F664 /* ViewController.m */,
-				0422E1A025F60E3E0007F664 /* Main.storyboard */,
-				0422E1A325F60E3F0007F664 /* Assets.xcassets */,
-				0422E1A525F60E3F0007F664 /* LaunchScreen.storyboard */,
-				0422E1A825F60E3F0007F664 /* Info.plist */,
+				04E783BB25F620ED004F246B /* Core */,
+				04E7839325F61B60004F246B /* Common */,
+				04E7838E25F61AF4004F246B /* Edit */,
+				04E783BC25F62183004F246B /* Supporting Files */,
 				0422E1A925F60E3F0007F664 /* main.m */,
 			);
 			path = HTVideoEdit;
+			sourceTree = "<group>";
+		};
+		04B4BCF725F67DDD008693B5 /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				04B4BCF825F67DFC008693B5 /* dog.gif */,
+				04B4BCF925F67DFC008693B5 /* dog.png */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
+		04E7838B25F61AA5004F246B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0422E1A025F60E3E0007F664 /* Main.storyboard */,
+				0422E19D25F60E3E0007F664 /* ViewController.h */,
+				0422E19E25F60E3E0007F664 /* ViewController.m */,
+				04E7838F25F61B24004F246B /* HTAssetPickerController.h */,
+				04E7839025F61B24004F246B /* HTAssetPickerController.m */,
+				04E7839925F61C44004F246B /* HTVideoEditViewController.h */,
+				04E7839A25F61C44004F246B /* HTVideoEditViewController.m */,
+				04E7841B25F6335E004F246B /* HTTextInputViewController.h */,
+				04E7841A25F6335E004F246B /* HTTextInputViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04E7838C25F61AC2004F246B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E783E525F62B28004F246B /* HTFontInfo.h */,
+				04E783E625F62B28004F246B /* HTFontInfo.m */,
+				04E7842225F633E3004F246B /* HTVideoInsertPointHelper.h */,
+				04E7842325F633E3004F246B /* HTVideoInsertPointHelper.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E7838D25F61ACB004F246B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E783B725F62030004F246B /* HTVideoEditToolView.h */,
+				04E783B825F62030004F246B /* HTVideoEditToolView.m */,
+				04E783D625F626BA004F246B /* HTTextStickerAttributePicker.h */,
+				04E783D525F626BA004F246B /* HTTextStickerAttributePicker.m */,
+				04E783E925F62BCB004F246B /* HTImagePicker.h */,
+				04E783EA25F62BCB004F246B /* HTImagePicker.m */,
+				04E783ED25F62C09004F246B /* HTImageCell.h */,
+				04E783EE25F62C09004F246B /* HTImageCell.m */,
+				04E783DD25F626E4004F246B /* HTColorCell.h */,
+				04E783DC25F626E3004F246B /* HTColorCell.m */,
+				04E783DB25F626E3004F246B /* HTFontCell.h */,
+				04E783DA25F626E3004F246B /* HTFontCell.m */,
+				04E7841625F632EE004F246B /* HTEditPlayerView.h */,
+				04E7841725F632EE004F246B /* HTEditPlayerView.m */,
+				04E7842725F63417004F246B /* HTExportProgressView.h */,
+				04E7842625F63417004F246B /* HTExportProgressView.m */,
+				04E783F125F62CBC004F246B /* ProgressBar */,
+				04E783BF25F623F1004F246B /* Sticker */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04E7838E25F61AF4004F246B /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				04E7839E25F61CCC004F246B /* AssetEditor */,
+				04E7838B25F61AA5004F246B /* Controller */,
+				04E7838C25F61AC2004F246B /* Model */,
+				04E7838D25F61ACB004F246B /* View */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		04E7839325F61B60004F246B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				04E7839425F61B6E004F246B /* Category */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		04E7839425F61B6E004F246B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04E7839625F61B98004F246B /* UIApplication+Extension.h */,
+				04E7839525F61B98004F246B /* UIApplication+Extension.m */,
+				04E783E125F628A9004F246B /* UIColor+Hex.h */,
+				04E783E225F628A9004F246B /* UIColor+Hex.m */,
+				04B4BD0325F6F102008693B5 /* UIColor+App.h */,
+				04B4BD0425F6F102008693B5 /* UIColor+App.m */,
+				04E7840A25F630E9004F246B /* UIView+Frame.h */,
+				04E7840B25F630E9004F246B /* UIView+Frame.m */,
+				04E7841325F632BD004F246B /* UIImage+Extension.h */,
+				04E7841225F632BD004F246B /* UIImage+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04E7839E25F61CCC004F246B /* AssetEditor */ = {
+			isa = PBXGroup;
+			children = (
+				04E7839F25F61CEC004F246B /* HTAssetEditor.h */,
+				04E783A025F61CEC004F246B /* HTAssetEditor.m */,
+				04E783A425F61D30004F246B /* HTAssetSegment.h */,
+				04E783A325F61D30004F246B /* HTAssetSegment.m */,
+				04E783A725F61D47004F246B /* HTTrackSegment.h */,
+				04E783A825F61D47004F246B /* HTTrackSegment.m */,
+				04E7841E25F633B0004F246B /* APLCompositionDebugView.h */,
+				04E7841F25F633B0004F246B /* APLCompositionDebugView.m */,
+				04E783AC25F61D60004F246B /* AVAssetTrack+HTHelper.h */,
+				04E783AB25F61D60004F246B /* AVAssetTrack+HTHelper.m */,
+				04E783B025F61D6F004F246B /* AVMutableCompositionTrack+HTHelper.h */,
+				04E783AF25F61D6F004F246B /* AVMutableCompositionTrack+HTHelper.m */,
+				04E783B325F61F68004F246B /* NSTimer+Weak.h */,
+				04E783B425F61F68004F246B /* NSTimer+Weak.m */,
+			);
+			path = AssetEditor;
+			sourceTree = "<group>";
+		};
+		04E783BB25F620ED004F246B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0422E19725F60E3E0007F664 /* AppDelegate.h */,
+				0422E19825F60E3E0007F664 /* AppDelegate.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		04E783BC25F62183004F246B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B4BCF725F67DDD008693B5 /* Stickers */,
+				0422E1A525F60E3F0007F664 /* LaunchScreen.storyboard */,
+				0422E1A325F60E3F0007F664 /* Assets.xcassets */,
+				0422E1A825F60E3F0007F664 /* Info.plist */,
+				04E783BD25F62370004F246B /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E783BF25F623F1004F246B /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				04E783C025F62425004F246B /* HTStickerView.h */,
+				04E783C525F62425004F246B /* HTStickerView.m */,
+				04E783C325F62425004F246B /* HTTextStickerView.h */,
+				04E783C425F62425004F246B /* HTTextStickerView.m */,
+				04E783C225F62425004F246B /* HTImageStickerView.h */,
+				04E783C125F62425004F246B /* HTImageStickerView.m */,
+				04E783CF25F624AE004F246B /* HTStickerHighlightView.h */,
+				04E783D025F624AE004F246B /* HTStickerHighlightView.m */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		04E783F125F62CBC004F246B /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				04E783F225F62D06004F246B /* HTVideoEditProgressBar.h */,
+				04E783F325F62D06004F246B /* HTVideoEditProgressBar.m */,
+				04E783F725F62E4D004F246B /* HTTimeRangeView.h */,
+				04E783F625F62E4D004F246B /* HTTimeRangeView.m */,
+				04E783FB25F62F26004F246B /* HTSectionClipViewDataSource.h */,
+				04E783FA25F62F25004F246B /* HTSectionClipViewDataSource.m */,
+				04E783FE25F62F64004F246B /* HTTimeRangeDragTrackView.h */,
+				04E783FF25F62F64004F246B /* HTTimeRangeDragTrackView.m */,
+				04E7840325F62F9D004F246B /* HTSectionClipScrollView.h */,
+				04E7840225F62F9D004F246B /* HTSectionClipScrollView.m */,
+				04E7840725F630C0004F246B /* HTSectionClipView.h */,
+				04E7840625F630C0004F246B /* HTSectionClipView.m */,
+				04E7840F25F6321D004F246B /* UIImageView+BindImageKey.h */,
+				04E7840E25F6321D004F246B /* UIImageView+BindImageKey.m */,
+			);
+			path = ProgressBar;
 			sourceTree = "<group>";
 		};
 		E7629BB0E3AF68B0FFE75AA1 /* Pods */ = {
@@ -153,6 +437,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0422E1A725F60E3F0007F664 /* LaunchScreen.storyboard in Resources */,
+				04B4BCFB25F67DFC008693B5 /* dog.png in Resources */,
+				04B4BCFA25F67DFC008693B5 /* dog.gif in Resources */,
 				0422E1A425F60E3F0007F664 /* Assets.xcassets in Resources */,
 				0422E1A225F60E3E0007F664 /* Main.storyboard in Resources */,
 			);
@@ -190,9 +476,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E7840825F630C0004F246B /* HTSectionClipView.m in Sources */,
+				04E7840C25F630E9004F246B /* UIView+Frame.m in Sources */,
+				04E783C625F62425004F246B /* HTImageStickerView.m in Sources */,
+				04E783D125F624AF004F246B /* HTStickerHighlightView.m in Sources */,
+				04E783A925F61D47004F246B /* HTTrackSegment.m in Sources */,
+				04E783B925F62030004F246B /* HTVideoEditToolView.m in Sources */,
+				04E783E325F628A9004F246B /* UIColor+Hex.m in Sources */,
+				04E7839B25F61C44004F246B /* HTVideoEditViewController.m in Sources */,
+				04E783DE25F626E4004F246B /* HTFontCell.m in Sources */,
+				04E7841425F632BD004F246B /* UIImage+Extension.m in Sources */,
+				04E783B525F61F68004F246B /* NSTimer+Weak.m in Sources */,
+				04E7842025F633B0004F246B /* APLCompositionDebugView.m in Sources */,
+				04E7839725F61B98004F246B /* UIApplication+Extension.m in Sources */,
+				04E7842825F63417004F246B /* HTExportProgressView.m in Sources */,
+				04E783C825F62425004F246B /* HTStickerView.m in Sources */,
+				04E783A525F61D30004F246B /* HTAssetSegment.m in Sources */,
+				04E783F425F62D06004F246B /* HTVideoEditProgressBar.m in Sources */,
 				0422E19F25F60E3E0007F664 /* ViewController.m in Sources */,
+				04E783F825F62E4D004F246B /* HTTimeRangeView.m in Sources */,
+				04E7841825F632EE004F246B /* HTEditPlayerView.m in Sources */,
+				04E783DF25F626E4004F246B /* HTColorCell.m in Sources */,
+				04E7841C25F6335F004F246B /* HTTextInputViewController.m in Sources */,
+				04E7840025F62F64004F246B /* HTTimeRangeDragTrackView.m in Sources */,
+				04E783C725F62425004F246B /* HTTextStickerView.m in Sources */,
 				0422E19925F60E3E0007F664 /* AppDelegate.m in Sources */,
+				04B4BD0525F6F102008693B5 /* UIColor+App.m in Sources */,
+				04E783EF25F62C09004F246B /* HTImageCell.m in Sources */,
+				04E783B125F61D6F004F246B /* AVMutableCompositionTrack+HTHelper.m in Sources */,
+				04E783EB25F62BCB004F246B /* HTImagePicker.m in Sources */,
+				04E7839125F61B25004F246B /* HTAssetPickerController.m in Sources */,
+				04E783A125F61CEC004F246B /* HTAssetEditor.m in Sources */,
+				04E783E725F62B28004F246B /* HTFontInfo.m in Sources */,
+				04E783D725F626BA004F246B /* HTTextStickerAttributePicker.m in Sources */,
+				04E7842425F633E3004F246B /* HTVideoInsertPointHelper.m in Sources */,
+				04E7840425F62F9D004F246B /* HTSectionClipScrollView.m in Sources */,
 				0422E1AA25F60E3F0007F664 /* main.m in Sources */,
+				04E7841025F6321D004F246B /* UIImageView+BindImageKey.m in Sources */,
+				04E783FC25F62F26004F246B /* HTSectionClipViewDataSource.m in Sources */,
+				04E783AD25F61D60004F246B /* AVAssetTrack+HTHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,14 +659,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SBJQC7QVB8;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = HTVideoEdit/PrefixHeader.pch;
 				INFOPLIST_FILE = HTVideoEdit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kankan.XiJing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harveytsang.htvideoedit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -357,14 +680,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SBJQC7QVB8;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = HTVideoEdit/PrefixHeader.pch;
 				INFOPLIST_FILE = HTVideoEdit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kankan.XiJing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harveytsang.htvideoedit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
